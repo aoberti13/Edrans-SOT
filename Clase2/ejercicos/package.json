@@ -1,0 +1,22 @@
+{
+  "name": "ejercicos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ej1.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/ej1.js",
+    "build": "babel src/ --out-dir build",
+    "serve": "node build/ej1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  }
+}
